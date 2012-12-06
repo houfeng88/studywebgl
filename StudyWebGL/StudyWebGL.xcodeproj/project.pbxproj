@@ -1,0 +1,225 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFEC507716708B5300BD9679 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFEC507616708B5300BD9679 /* main.cpp */; };
+		CFEC507916708B5300BD9679 /* StudyWebGL.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CFEC507816708B5300BD9679 /* StudyWebGL.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CFEC507016708B5300BD9679 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				CFEC507916708B5300BD9679 /* StudyWebGL.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CFEC507216708B5300BD9679 /* StudyWebGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StudyWebGL; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEC507616708B5300BD9679 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CFEC507816708B5300BD9679 /* StudyWebGL.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = StudyWebGL.1; sourceTree = "<group>"; };
+		CFEC508016708BB400BD9679 /* lesson1_1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = lesson1_1.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFEC506F16708B5300BD9679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFEC506716708B5300BD9679 = {
+			isa = PBXGroup;
+			children = (
+				CFEC507516708B5300BD9679 /* StudyWebGL */,
+				CFEC507316708B5300BD9679 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFEC507316708B5300BD9679 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFEC507216708B5300BD9679 /* StudyWebGL */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFEC507516708B5300BD9679 /* StudyWebGL */ = {
+			isa = PBXGroup;
+			children = (
+				CFEC507F16708B7800BD9679 /* lesson1 */,
+				CFEC507616708B5300BD9679 /* main.cpp */,
+				CFEC507816708B5300BD9679 /* StudyWebGL.1 */,
+			);
+			path = StudyWebGL;
+			sourceTree = "<group>";
+		};
+		CFEC507F16708B7800BD9679 /* lesson1 */ = {
+			isa = PBXGroup;
+			children = (
+				CFEC508016708BB400BD9679 /* lesson1_1.html */,
+			);
+			path = lesson1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFEC507116708B5300BD9679 /* StudyWebGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFEC507C16708B5300BD9679 /* Build configuration list for PBXNativeTarget "StudyWebGL" */;
+			buildPhases = (
+				CFEC506E16708B5300BD9679 /* Sources */,
+				CFEC506F16708B5300BD9679 /* Frameworks */,
+				CFEC507016708B5300BD9679 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudyWebGL;
+			productName = StudyWebGL;
+			productReference = CFEC507216708B5300BD9679 /* StudyWebGL */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFEC506916708B5300BD9679 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = houfeng;
+			};
+			buildConfigurationList = CFEC506C16708B5300BD9679 /* Build configuration list for PBXProject "StudyWebGL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CFEC506716708B5300BD9679;
+			productRefGroup = CFEC507316708B5300BD9679 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFEC507116708B5300BD9679 /* StudyWebGL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFEC506E16708B5300BD9679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEC507716708B5300BD9679 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CFEC507A16708B5300BD9679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CFEC507B16708B5300BD9679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CFEC507D16708B5300BD9679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFEC507E16708B5300BD9679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFEC506C16708B5300BD9679 /* Build configuration list for PBXProject "StudyWebGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEC507A16708B5300BD9679 /* Debug */,
+				CFEC507B16708B5300BD9679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFEC507C16708B5300BD9679 /* Build configuration list for PBXNativeTarget "StudyWebGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEC507D16708B5300BD9679 /* Debug */,
+				CFEC507E16708B5300BD9679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFEC506916708B5300BD9679 /* Project object */;
+}
