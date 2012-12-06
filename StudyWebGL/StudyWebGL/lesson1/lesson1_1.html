@@ -7,6 +7,18 @@
         </style>
     </head>
     
+    
+<script>
+    var gl =null;
+    function getGLContext(){
+        var canvas = document.getElementtById("canvas-element-id");
+        if(canvas == null){
+            alert("there is no canvas on this page");
+            return;
+        }
+    }
+</script>
+    
 <body>
 <canvas id="canvas-element-id" width="800" height="600">
 Your browser does not support canvas
